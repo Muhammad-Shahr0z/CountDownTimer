@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Count Down Timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <input type="text" id="Display" placeholder="00" disabled />
+      </div>
+
+      <div>
+        <input id="Input" type="number" placeholder="Set Your Timer" />
+      </div>
+
+      <div>
+        <button id="Start" onclick="startFunction()">Start</button>
+        <!-- <button id="Pause" onclick="resetFunction()">Pause</button> -->
+        <button id="Reset" onclick="resetFunction()">Reset</button>
+      </div>
+
+      <div id="dark-mode">
+        <p id="mode">normal</p>
+        <button id="bg-color"><i class="fa-solid fa-paintbrush"></i></button>
+      </div>
+
+      <footer id="footer">Made With Love By Muhammad Shahroz</footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
